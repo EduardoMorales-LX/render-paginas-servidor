@@ -14,14 +14,24 @@
             href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"
         />
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-        <title>Document</title>
+        <title>Renderizado de páginas desde servidor</title>
     </head>
     <body>
-        <h1>Perfil</h1>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/contacto">Contato</a></li>
-            <li><a href="/perfil">Perfil</a></li>
-        </ul>
+        <div style="margin: 24px">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="/">Launch-X</a>
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/contacto">Contato</a></li>
+                        <li class="active"><a href="/perfil">Perfil</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="jumbotron" style="padding: 40px">
+                <h1>Perfil</h1>
+            </div>
+        </div>
     </body>
 </html>
